@@ -1,43 +1,117 @@
 # build-your-own-flutter-ui
 
-> Recreate popular Flutter UI patterns from scratch, and discover the libraries that do it for you.
+> A community-curated list of tutorials for building your own Flutter UI components from scratch — plus the libraries that do it for you.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Flutter](https://img.shields.io/badge/Flutter-3.x%2B-blue.svg)](https://flutter.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/badge/stars-%E2%AD%90%20placeholder-blue.svg)](https://github.com)
+
+---
+
+## 📖 About This Repository
+
+**build-your-own-flutter-ui** is an index of community-created tutorials, articles, videos, and GitHub repositories teaching Flutter developers how to build popular UI patterns and components **from scratch** using Flutter's built-in primitives (`AnimationController`, `CustomPainter`, `ShaderMask`, gestures, etc.).
+
+This repository **does not host full tutorials directly** — it serves as a curated directory pointing to great learning resources across the web.
+
+Looking for battle-tested packages instead of building by hand? Jump to [Use a Library Instead](#-use-a-library-instead) for ready-to-use Flutter UI packages.
 
 ---
 
 ## 🛠️ Build It Yourself
 
-Learn Flutter internals and custom UI craft by building widely-used interface patterns from first principles without heavy third-party dependencies.
+Browse tutorials by category. Click any link to open the original guide or repository.
 
-| Component | Difficulty | Key Concepts | Link |
-|---|---|---|---|
-| **Glassmorphic Card** | Beginner | `BackdropFilter`, `ImageFilter.blur`, `LinearGradient`, `ClipRRect` | [Tutorial](tutorials/glassmorphic-card/README.md) |
-| **Neumorphic Button** | Beginner | `GestureDetector`, dual `BoxShadow`, `AnimatedContainer`, inner/outer elevation | [Tutorial](tutorials/neumorphic-button/README.md) |
-| **Animated Bottom Nav** | Intermediate | `AnimationController`, `CurvedAnimation`, `Tween`, `AnimatedBuilder` | [Tutorial](tutorials/animated-bottom-nav/README.md) |
-| **Custom Shimmer Loader** | Intermediate | `ShaderMask`, `LinearGradient`, `AnimatedBuilder`, `TileMode` | [Tutorial](tutorials/custom-shimmer-loader/README.md) |
-| **Expandable FAB** | Intermediate | `Flow` / `Stack`, `Transform.rotate`, `ScaleTransition`, `AnimationController` | [Tutorial](tutorials/expandable-fab/README.md) |
-| **Shader Gradient Background** | Intermediate | `CustomPainter`, `Canvas.drawRect`, `RadialGradient`, `AnimatedBuilder` | [Tutorial](tutorials/shader-gradient-background/README.md) |
-| **Swipeable Card Stack** | Advanced | `GestureDetector`, `Transform.translate`, `Transform.rotate`, Drag Physics | [Tutorial](tutorials/swipeable-card-stack/README.md) |
-| **Custom Painter Charts** | Advanced | `CustomPainter`, `Path`, `Canvas.drawPath`, `Paint`, coordinate mapping | [Tutorial](tutorials/custom-painter-charts/README.md) |
+### Table of Contents
+- [Animations](#animations)
+- [Buttons & Inputs](#buttons--inputs)
+- [Loaders & Shimmer](#loaders--shimmer)
+- [Navigation](#navigation)
+- [Cards & Layout](#cards--layout)
+- [Charts & Data Viz](#charts--data-viz)
+- [Glassmorphism & Neumorphism](#glassmorphism--neumorphism)
+- [Custom Painters](#custom-painters)
 
 ---
 
-## 📦 Or Use a Library
+### Animations
 
-Looking for battle-tested, production-ready packages instead of building from scratch?
+| Component | Author | Language/Framework | Link |
+|---|---|---|---|
+| _No entries yet — be the first to add one!_ | — | — | — |
 
-Check out our curated guide of Flutter UI packages:
+---
+
+### Buttons & Inputs
+
+| Component | Author | Language/Framework | Link |
+|---|---|---|---|
+| _No entries yet — be the first to add one!_ | — | — | — |
+
+---
+
+### Loaders & Shimmer
+
+| Component | Author | Language/Framework | Link |
+|---|---|---|---|
+| _No entries yet — be the first to add one!_ | — | — | — |
+
+---
+
+### Navigation
+
+| Component | Author | Language/Framework | Link |
+|---|---|---|---|
+| _No entries yet — be the first to add one!_ | — | — | — |
+
+---
+
+### Cards & Layout
+
+| Component | Author | Language/Framework | Link |
+|---|---|---|---|
+| _No entries yet — be the first to add one!_ | — | — | — |
+
+---
+
+### Charts & Data Viz
+
+| Component | Author | Language/Framework | Link |
+|---|---|---|---|
+| _No entries yet — be the first to add one!_ | — | — | — |
+
+---
+
+### Glassmorphism & Neumorphism
+
+| Component | Author | Language/Framework | Link |
+|---|---|---|---|
+| _No entries yet — be the first to add one!_ | — | — | — |
+
+---
+
+### Custom Painters
+
+| Component | Author | Language/Framework | Link |
+|---|---|---|---|
+| _No entries yet — be the first to add one!_ | — | — | — |
+
+---
+
+## 📦 Use a Library Instead
+
+Need a battle-tested, production-ready package rather than writing your own component from scratch?
+
+Explore our curated directory of existing Flutter UI packages:
 👉 **[Curated List of Flutter UI Libraries](curated-list/README.md)**
 
-Organized into categories:
-- Design Systems & Styling
+Includes recommended packages for:
+- Design Systems & Typography
 - Animations & Motion
 - Buttons & Inputs
 - Loaders & Shimmer
-- Navigation & App Bars
+- Navigation & Toolbars
 - Charts & Data Visualization
 - Layout & Grids
 
@@ -45,14 +119,12 @@ Organized into categories:
 
 ## 🤝 How to Contribute
 
-We welcome contributions! You can contribute by:
-1. Writing a new tutorial following our standard template.
-2. Adding battle-tested UI packages to the curated list.
+Add a link to your tutorial or repo, one row per PR.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines and the pull request checklist.
+Please check out [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines, formatting rules, and submission instructions.
 
 ---
 
-## 💡 Acknowledgements & Inspiration
+## 💡 Acknowledgements
 
-Inspired by the brilliant [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) repository format.
+Inspired by [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x).

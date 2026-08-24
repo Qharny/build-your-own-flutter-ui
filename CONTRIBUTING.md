@@ -1,58 +1,60 @@
 # Contributing to build-your-own-flutter-ui
 
-Thank you for your interest in contributing! This project aims to help Flutter developers master custom UI development by building components from scratch and discovering great libraries in the Flutter ecosystem.
+Thank you for helping curate the best resources for building custom Flutter UI components from scratch!
 
 ---
 
-## Two Ways to Contribute
+## 📌 This Repository is an Index (Link-Only)
 
-### 1. Add a New Component Tutorial
+**build-your-own-flutter-ui** does not host tutorial files, blog posts, or codebases directly in this repository. Instead, it is an indexed directory of high-quality external resources (dev.to posts, Medium articles, personal GitHub repositories, YouTube tutorials, Flutter community articles, etc.).
 
-If you'd like to share how to build a Flutter UI component from scratch:
+**To contribute, you only need to add a single markdown table row linking to your resource.** Please do not paste full tutorial content or upload large codebases directly into this repository.
 
-1. **Pick a Component**: Choose a popular, visually interesting, or technically educational Flutter UI pattern that isn't already covered (or open an issue to discuss it).
-2. **Create Tutorial Folder**: Create a directory under `tutorials/<component-slug>/` with the following structure:
-   ```text
-   tutorials/<component-slug>/
-   ├── README.md
-   └── final/
-       └── <component_name>.dart
+---
+
+## 📜 Submission Rules
+
+1. **Public & Accessible**: The tutorial, article, video, or repository must be publicly accessible without mandatory paywalls or private permissions.
+2. **Built From Scratch**: The resource must teach or demonstrate how to build a Flutter UI component/pattern **from scratch** using Flutter's native widget tree, animation controllers, shaders, or custom painters — not just how to install a third-party package.
+3. **One Link per PR**: Please submit one link/resource per pull request to make reviews straightforward.
+4. **Alphabetical Order**: Keep entries sorted alphabetically by component name within each category section.
+5. **No Duplicate Entries**: Check existing tables to ensure the tutorial or package has not already been indexed.
+
+---
+
+## 🛠️ How to Add an Entry
+
+### Adding a "Build It Yourself" Tutorial Link
+1. Open [`README.md`](README.md).
+2. Find the relevant category under **Build It Yourself** (e.g., *Animations*, *Buttons & Inputs*, *Navigation*, etc.).
+3. If the category currently has the placeholder row (`_No entries yet — be the first to add one!_`), replace it with your table row:
+   ```markdown
+   | <Component Name> | <Author Name or @handle> | Flutter / Dart | [Tutorial / Repo Title](https://link-to-resource.com) |
    ```
-3. **Follow the Standard Tutorial Template**:
-   Your `tutorials/<component-slug>/README.md` must follow this structure:
-   - `# <Component Name>`
-   - `## What we're building` (concise description + mention/embed of screenshot or demo)
-   - `## Concepts you'll learn` (bullet list of Flutter/Dart APIs, widgets, and animation techniques)
-   - `## Prerequisites` (Flutter SDK version requirements and dependencies, if any)
-   - `## Step-by-step` (numbered steps with working, runnable Dart code snippets)
-   - `## Challenges` (2-3 suggestions to extend the component)
-   - `## Final result` (link to the `final/` folder)
-4. **Provide Complete Code**: Add a self-contained, working widget file (e.g. `<component_name>.dart` or `main.dart`) inside the `final/` folder.
-5. **Update Root README**: Add an entry for your new tutorial in the table within the root [README.md](../../README.md).
+4. Save and open a Pull Request.
 
----
-
-### 2. Add a Package to the Curated List
-
-If you know of a robust, well-maintained Flutter package for custom UI:
-
+### Adding a Package to the Curated List
 1. Open [`curated-list/README.md`](curated-list/README.md).
-2. Locate the appropriate category (or suggest a new one if it doesn't fit existing sections).
-3. Add the package to the table with:
-   - Package name
-   - Short, accurate description
-   - Direct pub.dev link
-   - Star indicator (`⭐ check pub.dev`)
-4. Ensure the package is actively maintained and published on pub.dev.
+2. Locate the appropriate category.
+3. Add a row with package name, description, direct pub.dev link, and placeholder stars:
+   ```markdown
+   | `package_name` | Concise description of what it does. | [pub.dev/packages/package_name](https://pub.dev/packages/package_name) | ⭐ check pub.dev |
+   ```
+4. Save and open a Pull Request.
 
 ---
 
-## Pull Request Checklist
+## ✅ Pull Request Checklist
 
-Before submitting your pull request, please make sure:
+Before submitting your PR, verify that:
 
-- [ ] The tutorial's `README.md` follows the standard template format.
-- [ ] All Dart code snippets and the file in `final/` are valid, error-free Dart code that compiles with Flutter stable.
-- [ ] No extraneous build files, `.dart_tool`, or IDE configs are included.
-- [ ] The component has been added to the table in root `README.md` with appropriate difficulty and key concepts.
-- [ ] If adding to the curated list, the package exists on pub.dev and is placed in the correct category.
+- [ ] You added your link to the correct category in [README.md](README.md) or [curated-list/README.md](curated-list/README.md).
+- [ ] You did not duplicate an existing entry.
+- [ ] The linked tutorial/repo is public, active, and working.
+- [ ] The markdown table syntax is properly aligned and formatted.
+
+---
+
+## ⚠️ Link Rot & Dead Links
+
+If you notice a link in this repository is broken, returning a 404, or points to a deleted repository, please open an issue using the [Broken Link Report template](.github/ISSUE_TEMPLATE/broken-link.md) so we can update or prune it.
