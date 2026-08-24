@@ -76,3 +76,4 @@ symbols/
 # Linux/Windows related
 **/linux/flutter/ephemeral/
 **/windows/flutter/ephemeral/
+post.txt
