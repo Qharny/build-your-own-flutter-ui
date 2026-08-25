@@ -1,0 +1,52 @@
+name: PR Check
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened, edited]
+    paths:
+      - "README.md"
+      - "curated-list/README.md"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate contribution
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate PR content
+        id: validate
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: node .github/scripts/validate-pr.mjs
+
+      - name: Check whether links need verifying
+        id: link_files
+        if: always()
+        run: |
+          if [ -s added-links.txt ]; then
+            echo "has_links=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_links=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Verify added link is reachable
+        if: always() && steps.link_files.outputs.has_links == 'true'
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --accept 100..=103,200..=299,403,429 added-links.txt
+          fail: true
+        continue-on-error: true
