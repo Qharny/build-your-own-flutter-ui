@@ -32,6 +32,7 @@ Browse tutorials by category. Click any link to open the original guide or repos
 - [Charts & Data Viz](#charts--data-viz)
 - [Glassmorphism & Neumorphism](#glassmorphism--neumorphism)
 - [Custom Painters](#custom-painters)
+- [Screens & Templates](#screens--templates)
 
 ---
 
@@ -47,7 +48,7 @@ Browse tutorials by category. Click any link to open the original guide or repos
 
 | Component | Author | Language/Framework | Link |
 |---|---|---|---|
-| Cool Login (Animated Auth Screen) | [@Qharny](https://github.com/Qharny) | Flutter / Dart | [cool_login](https://github.com/Qharny/cool_login) |
+| _No entries yet — be the first to add one!_ | — | — | — |
 
 ---
 
@@ -96,6 +97,16 @@ Browse tutorials by category. Click any link to open the original guide or repos
 | Component | Author | Language/Framework | Link |
 |---|---|---|---|
 | _No entries yet — be the first to add one!_ | — | — | — |
+
+---
+
+### Screens & Templates
+
+Full-screen layouts (login, onboarding, profile, settings, etc.) rather than individual components.
+
+| Component | Author | Language/Framework | Link |
+|---|---|---|---|
+| Cool Login (Animated Auth Screen) | [@Qharny](https://github.com/Qharny) | Flutter / Dart | [cool_login](https://github.com/Qharny/cool_login) |
 
 ---
 
