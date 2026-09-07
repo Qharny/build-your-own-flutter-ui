@@ -26,7 +26,7 @@ Thank you for helping curate the best resources for building custom Flutter UI c
 
 ### Adding a "Build It Yourself" Tutorial Link
 1. Open [`README.md`](README.md).
-2. Find the relevant category under **Build It Yourself** (e.g., *Animations*, *Buttons & Inputs*, *Navigation*, etc.).
+2. Find the relevant category under **Build It Yourself** (e.g., *Animations*, *Buttons & Inputs*, *Navigation*, *Screens & Templates*, etc.).
 3. If the category currently has the placeholder row (`_No entries yet — be the first to add one!_`), replace it with your table row:
    ```markdown
    | <Component Name> | <Author Name or @handle> | Flutter / Dart | [Tutorial / Repo Title](https://link-to-resource.com) |
