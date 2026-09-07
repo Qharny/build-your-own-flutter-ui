@@ -47,7 +47,7 @@ Browse tutorials by category. Click any link to open the original guide or repos
 
 | Component | Author | Language/Framework | Link |
 |---|---|---|---|
-| _No entries yet — be the first to add one!_ | — | — | — |
+| Cool Login (Animated Auth Screen) | [@Qharny](https://github.com/Qharny) | Flutter / Dart | [cool_login](https://github.com/Qharny/cool_login) |
 
 ---
 
