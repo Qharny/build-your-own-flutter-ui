@@ -107,6 +107,7 @@ Full-screen layouts (login, onboarding, profile, settings, etc.) rather than ind
 | Component | Author | Language/Framework | Link |
 |---|---|---|---|
 | Cool Login (Animated Auth Screen) | [@Qharny](https://github.com/Qharny) | Flutter / Dart | [cool_login](https://github.com/Qharny/cool_login) |
+| PageTurn Splash (Animated Splash Screen) | [@Qharny](https://github.com/Qharny) | Flutter / Dart | [PageTurn splash_screen.dart](https://github.com/Qharny/PageTurn/blob/main/lib/presentation/splash/splash_screen.dart) |
 
 ---
 
